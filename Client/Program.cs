@@ -13,6 +13,9 @@ namespace Client
         {
             var consolidateDaily = new ConsolidateDaily();
             var result = consolidateDaily.Query("SELECT TOP 100 * FROM [dbo].[dwConsolidateDaily]");
+
+            Console.WriteLine("Found {0} records.", result.Count());
+            Console.ReadKey();
         }
     }
 }

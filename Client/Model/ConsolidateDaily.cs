@@ -11,9 +11,7 @@ namespace Client.Model
     [Table("dwConsolidateDaily")]
     public class ConsolidateDaily : DumbContext<ConsolidateDaily>
     {
-        public ConsolidateDaily() : base("DataWarehouse")
-        {
-        }
+        public ConsolidateDaily() : base("DataWarehouse") { }
 
         [Field("business_transaction_datetime")]
         public DateTime BusinessTransactionDateTime { get; set; }
