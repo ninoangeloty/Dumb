@@ -41,12 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DumbContext.cs" />
-    <Compile Include="EntityCache.cs" />
-    <Compile Include="ModelInfo.cs" />
-    <Compile Include="FieldAttribute.cs" />
+    <Compile Include="Descriptor\EntityCache.cs" />
+    <Compile Include="Descriptor\ModelInfo.cs" />
+    <Compile Include="Attributes\FieldAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PropertyDescription.cs" />
-    <Compile Include="TableAttribute.cs" />
+    <Compile Include="Descriptor\PropertyDescription.cs" />
+    <Compile Include="Attributes\TableAttribute.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
